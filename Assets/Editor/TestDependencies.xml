@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dependencies>
+  <androidPackages>
+    <repositories>
+      <repository>https://repo1.maven.org/maven2</repository>
+      <repository>https://dl.google.com/dl/android/maven2/</repository>
+    </repositories>
+    <androidPackage spec="com.datadoghq:dd-sdk-android:1.12.0"/>
+    <androidPackage spec="com.google.ads.mediation:inmobi:10.0.7.0"/>
+  </androidPackages>
+</dependencies>
