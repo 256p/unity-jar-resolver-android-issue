@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example",
+    "module": "lib-b",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lib-b-1.0.0.aar",
+          "url": "lib-b-1.0.0.aar",
+          "size": 1329,
+          "sha512": "0db4f5acf3a13f02772dac3fd447a78079778fba83f450173d45ad368de3c212dfe94171e72c33cc2207b6054cd02d659f2e30259151982f12463962af444f80",
+          "sha256": "a4cf64dd070df26c1ae23a2e61be883842771abed0a87dec690688a60cc1079b",
+          "sha1": "6a352d99ef6881a7600a61e00807cedd7f846956",
+          "md5": "99bef975f97117bddfb5c586d82a4836"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.example",
+          "module": "lib-a",
+          "version": {
+            "requires": "[1.0.0]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-b-1.0.0.aar",
+          "url": "lib-b-1.0.0.aar",
+          "size": 1329,
+          "sha512": "0db4f5acf3a13f02772dac3fd447a78079778fba83f450173d45ad368de3c212dfe94171e72c33cc2207b6054cd02d659f2e30259151982f12463962af444f80",
+          "sha256": "a4cf64dd070df26c1ae23a2e61be883842771abed0a87dec690688a60cc1079b",
+          "sha1": "6a352d99ef6881a7600a61e00807cedd7f846956",
+          "md5": "99bef975f97117bddfb5c586d82a4836"
+        }
+      ]
+    }
+  ]
+}

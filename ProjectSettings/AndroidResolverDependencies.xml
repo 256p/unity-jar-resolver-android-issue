@@ -1,9 +1,12 @@
 <dependencies>
   <packages>
-    <package>com.datadoghq:dd-sdk-android:1.12.0</package>
-    <package>com.google.ads.mediation:inmobi:10.0.7.0</package>
+    <package>com.example:lib-a:1.1.1</package>
+    <package>com.example:lib-b:1.0.0</package>
   </packages>
-  <files />
+  <files>
+    <file>Assets/Plugins/Android/com.example.lib-a-1.2.0-alpha.aar</file>
+    <file>Assets/Plugins/Android/com.example.lib-b-1.2.0-alpha.aar</file>
+  </files>
   <settings>
     <setting name="androidAbis" value="armeabi-v7a" />
     <setting name="bundleId" value="com.DefaultCompany.unityjarresolverandroidissue" />
@@ -17,6 +20,6 @@
     <setting name="patchAndroidManifest" value="True" />
     <setting name="patchMainTemplateGradle" value="True" />
     <setting name="projectExportEnabled" value="False" />
-    <setting name="useJetifier" value="False" />
+    <setting name="useJetifier" value="True" />
   </settings>
 </dependencies>
